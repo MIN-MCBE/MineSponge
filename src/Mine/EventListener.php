@@ -1,21 +1,20 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Mine;
 
 use Mine\Mine;
+
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\block\BlockPlaceEvent;
 use pocketmine\event\Listener;
+
 use pocketmine\world\Position;
 
 class EventListener implements Listener
 {
-    public function __construct(
-        private Mine $plugin
-    )
-    {
-    }
+    public function __construct(private Mine $plugin){}
 
     public function onBreak(BlockBreakEvent $event): void
     {
