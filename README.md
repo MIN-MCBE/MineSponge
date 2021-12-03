@@ -1,7 +1,7 @@
 # MineSponge
 + This plugin is for PocketMine-MP.
 
-# What is this?
+# What is this
 + Mine Sponge ( 스폰지 광산 ).
 
 # How to use
