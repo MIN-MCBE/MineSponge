@@ -1,13 +1,17 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Mine;
 
 use Mine\EventListener;
+
 use pocketmine\block\Block;
 use pocketmine\block\BlockFactory;
+
 use pocketmine\item\Item;
 use pocketmine\item\ItemFactory;
+
 use pocketmine\plugin\PluginBase;
 
 class Mine extends PluginBase
