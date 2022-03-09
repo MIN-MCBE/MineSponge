@@ -20,7 +20,7 @@ use pocketmine\plugin\PluginBase;
 
 use function mt_rand;
 
-class Mine extends PluginBase
+final class Mine extends PluginBase
 {
     protected function onEnable(): void
     {
